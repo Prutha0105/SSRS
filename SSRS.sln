@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32126.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "Tabular Reports", "Tabular Reports\Tabular Reports.rptproj", "{43A27A6E-A50F-4A5C-BAF4-FEB97DBF462A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43A27A6E-A50F-4A5C-BAF4-FEB97DBF462A}.Debug|Default.ActiveCfg = Debug
+		{43A27A6E-A50F-4A5C-BAF4-FEB97DBF462A}.Debug|Default.Build.0 = Debug
+		{43A27A6E-A50F-4A5C-BAF4-FEB97DBF462A}.Debug|Default.Deploy.0 = Debug
+		{43A27A6E-A50F-4A5C-BAF4-FEB97DBF462A}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{43A27A6E-A50F-4A5C-BAF4-FEB97DBF462A}.DebugLocal|Default.Build.0 = DebugLocal
+		{43A27A6E-A50F-4A5C-BAF4-FEB97DBF462A}.Release|Default.ActiveCfg = Release
+		{43A27A6E-A50F-4A5C-BAF4-FEB97DBF462A}.Release|Default.Build.0 = Release
+		{43A27A6E-A50F-4A5C-BAF4-FEB97DBF462A}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F6C28080-D5A1-4AF5-8211-99E167AFCEE3}
+	EndGlobalSection
+EndGlobal
