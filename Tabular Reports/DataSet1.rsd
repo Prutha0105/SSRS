@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSet Name="DataSet1">
+    <Query>
+      <DataSourceReference>DataSource1</DataSourceReference>
+      <CommandText>SELECT        HumanResources.vEmployee.EmployeeID, HumanResources.vEmployee.FirstName,
+HumanResources.vEmployee.MiddleName,HumanResources.vEmployee.LastName,
+HumanResources.vEmployeeDepartmentHistory.Department,
+HumanResources.vEmployeeDepartmentHistory.GroupName,
+ 
+                         HumanResources.vEmployeeDepartmentHistory.Department AS OldDepartment
+FROM            HumanResources.vEmployee INNER JOIN
+                         HumanResources.vEmployeeDepartment ON HumanResources.vEmployee.EmployeeID = HumanResources.vEmployeeDepartment.EmployeeID INNER JOIN
+                         HumanResources.vEmployeeDepartmentHistory ON HumanResources.vEmployeeDepartment.EmployeeID = HumanResources.vEmployeeDepartmentHistory.EmployeeID</CommandText>
+    </Query>
+    <Fields>
+      <Field Name="EmployeeID">
+        <DataField>EmployeeID</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="FirstName">
+        <DataField>FirstName</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="MiddleName">
+        <DataField>MiddleName</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="LastName">
+        <DataField>LastName</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Department">
+        <DataField>Department</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="GroupName">
+        <DataField>GroupName</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="OldDepartment">
+        <DataField>OldDepartment</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+</SharedDataSet>
