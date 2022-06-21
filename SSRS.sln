@@ -5,6 +5,12 @@ VisualStudioVersion = 16.0.32126.315
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "Tabular Reports", "Tabular Reports\Tabular Reports.rptproj", "{43A27A6E-A50F-4A5C-BAF4-FEB97DBF462A}"
 EndProject
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "GraphReports", "GraphReports\GraphReports.rptproj", "{BDB22188-894E-4C6A-B5B5-365E613D55D4}"
+EndProject
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "SubReports", "SubReports\SubReports.rptproj", "{A77E8B0E-FCF0-413E-ABC9-31443B78217C}"
+EndProject
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "ParameterizedReports", "ParameterizedReports\ParameterizedReports.rptproj", "{5C64D5D5-9ABA-4965-8ED8-0F34BBEE4DF6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Default = Debug|Default
@@ -20,6 +26,30 @@ Global
 		{43A27A6E-A50F-4A5C-BAF4-FEB97DBF462A}.Release|Default.ActiveCfg = Release
 		{43A27A6E-A50F-4A5C-BAF4-FEB97DBF462A}.Release|Default.Build.0 = Release
 		{43A27A6E-A50F-4A5C-BAF4-FEB97DBF462A}.Release|Default.Deploy.0 = Release
+		{BDB22188-894E-4C6A-B5B5-365E613D55D4}.Debug|Default.ActiveCfg = Debug
+		{BDB22188-894E-4C6A-B5B5-365E613D55D4}.Debug|Default.Build.0 = Debug
+		{BDB22188-894E-4C6A-B5B5-365E613D55D4}.Debug|Default.Deploy.0 = Debug
+		{BDB22188-894E-4C6A-B5B5-365E613D55D4}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{BDB22188-894E-4C6A-B5B5-365E613D55D4}.DebugLocal|Default.Build.0 = DebugLocal
+		{BDB22188-894E-4C6A-B5B5-365E613D55D4}.Release|Default.ActiveCfg = Release
+		{BDB22188-894E-4C6A-B5B5-365E613D55D4}.Release|Default.Build.0 = Release
+		{BDB22188-894E-4C6A-B5B5-365E613D55D4}.Release|Default.Deploy.0 = Release
+		{A77E8B0E-FCF0-413E-ABC9-31443B78217C}.Debug|Default.ActiveCfg = Debug
+		{A77E8B0E-FCF0-413E-ABC9-31443B78217C}.Debug|Default.Build.0 = Debug
+		{A77E8B0E-FCF0-413E-ABC9-31443B78217C}.Debug|Default.Deploy.0 = Debug
+		{A77E8B0E-FCF0-413E-ABC9-31443B78217C}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{A77E8B0E-FCF0-413E-ABC9-31443B78217C}.DebugLocal|Default.Build.0 = DebugLocal
+		{A77E8B0E-FCF0-413E-ABC9-31443B78217C}.Release|Default.ActiveCfg = Release
+		{A77E8B0E-FCF0-413E-ABC9-31443B78217C}.Release|Default.Build.0 = Release
+		{A77E8B0E-FCF0-413E-ABC9-31443B78217C}.Release|Default.Deploy.0 = Release
+		{5C64D5D5-9ABA-4965-8ED8-0F34BBEE4DF6}.Debug|Default.ActiveCfg = Debug
+		{5C64D5D5-9ABA-4965-8ED8-0F34BBEE4DF6}.Debug|Default.Build.0 = Debug
+		{5C64D5D5-9ABA-4965-8ED8-0F34BBEE4DF6}.Debug|Default.Deploy.0 = Debug
+		{5C64D5D5-9ABA-4965-8ED8-0F34BBEE4DF6}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{5C64D5D5-9ABA-4965-8ED8-0F34BBEE4DF6}.DebugLocal|Default.Build.0 = DebugLocal
+		{5C64D5D5-9ABA-4965-8ED8-0F34BBEE4DF6}.Release|Default.ActiveCfg = Release
+		{5C64D5D5-9ABA-4965-8ED8-0F34BBEE4DF6}.Release|Default.Build.0 = Release
+		{5C64D5D5-9ABA-4965-8ED8-0F34BBEE4DF6}.Release|Default.Deploy.0 = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
