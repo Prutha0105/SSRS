@@ -1,5 +1,12 @@
-SSRS Reports
+**SSRS Reports**
 
+Overview of SQL Server Reporting Services (SSRS)
+
+SQL Server Reporting Services (SSRS) is a Microsoft tool used for creating, managing, and delivering reports. It provides a wide range of features for designing and generating reports that can be published and accessed by users through various devices and channels.
+
+**Why reports are important in database management**
+
+Reports play a crucial role in database management as they provide insights and information extracted from the database. They help businesses make data-driven decisions and monitor key performance indicators (KPIs). Reports also enable users to analyze trends, identify patterns, and evaluate the effectiveness of strategies. Having accurate and well-designed reports is essential for effective data management and analysis. Now, let’s explore the different types of reports that can be created using SQL Server Reporting Services:
 
 Types Of Reports:-
 
